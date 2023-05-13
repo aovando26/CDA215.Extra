@@ -1,0 +1,31 @@
+.gridBottom {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto; 
+	justify-content: center; 
+	padding-top: 5vmax; 
+	background-color: rgba(245, 225, 218);
+	margin-top: 50px; 
+	position: relative; 
+	padding-bottom: 10vmax;
+	/*background-image: url(gridbackground.jpg); 
+	background-size: no-repeat; */
+} 
+.gridBottom > figure {
+	margin: auto; 
+	/*display: block;*/ 
+} 
+.gridBottom > figure img {
+	/*display: block;*/
+	height: 320px;
+	width: auto;
+	border-image: url(tb_border.png) 50 repeat;
+	border-style: solid; 
+	border-width: 20px; 
+} 
+.gridBottom > figure > figcaption {
+	padding: 10px 0px; 
+	display: block; 
+	font-family: 'Roboto Mono',monospace;
+	text-align: center;
+}

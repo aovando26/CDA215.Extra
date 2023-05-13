@@ -1,0 +1,48 @@
+table {
+	width: 800px;
+	border-collapse: collapse;
+	font-family: 'Permanent Marker',sans-serif;
+	font-size: 30px; 
+} 
+table th {
+	padding: 15px 0px; 
+} 
+
+table td {
+	text-align: center; 
+	padding: 20px; 
+	width: 20%; 
+}
+.first-half {
+    width: 50%;
+	float: left;
+}
+.second-half {
+    width: 50%;
+	float: right; 
+}
+dd	{
+	font-family: 'Roboto Mono',monospace;
+	font-size: 16px;
+}
+.proteinDiv {
+	border-right: 1px solid #ccc;
+} 
+.bottomTable td {
+	padding-bottom: 10px; 
+	text-decoration: underline;  
+} 
+.innerbotTable td {
+	font-family: 'Roboto Mono',monospace;
+	font-size: 16px;
+	padding: 0;
+	text-decoration: none; 
+} 
+.listTable ul {
+	list-style-type: none;
+	text-align: right;
+	display: block; 
+} 
+.listTable li {
+	width: 70%;
+} 

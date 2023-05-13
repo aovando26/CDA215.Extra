@@ -1,0 +1,34 @@
+.navLinks li { 
+	display: inline-block;
+	height: 100%;
+	
+} 
+.navLinks {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	align-items: center;
+	background-color: #388567;
+} 
+.navLinks > div > h1 {
+	padding-left: 20px;
+	font-size: 48px; 
+} 
+.navLinks ul {
+	height: 100%;
+	text-transform: uppercase; 
+	justify-items: end; 
+}
+.navLinks > ul > li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px;
+  height: 100%;
+  line-height: 75px;
+  transition: background-color 0.3s ease;
+}
+
+.navLinks > ul > li a:hover {
+  background-color: #CCE1D9;
+  color: black; 
+}

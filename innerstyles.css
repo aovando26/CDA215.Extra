@@ -1,0 +1,35 @@
+.innerDiv {
+	display: grid;
+	grid-template-rows: 50% 50%; 
+	padding-top: 10vmax; 
+	justify-content: center; 
+} 
+.innerDiv > .topRow > h2 {
+	width: 100%;
+	text-align: center; 
+	font-family: 'Permanent Marker',sans-serif;
+} 
+ .innerDiv > .bottomRow > address {
+	width: 100%;
+	text-align: center; 
+}
+.innerDiv > .topRow, .innerDiv > .bottomRow {
+	height: 150px;  
+}
+.bottomRow {
+	position: relative;
+}
+.innerDiv > .topRow h2 {
+	margin-top: 25px; 
+	margin-left: auto;
+	margin-right: auto;	
+	max-width: 75%;
+	font-size: 40px; 
+	font-family: 'Permanent Marker',sans-serif;
+} 
+.innerDiv > .bottomRow address {
+	font-size: 16px;
+	font-weight: bold; 
+	position: absolute; 
+	top: 10px; 
+} 

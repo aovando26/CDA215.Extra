@@ -1,0 +1,117 @@
+.formSection {
+	display: flex; 
+	background: radial-gradient(circle, rgba(245, 225, 218), white);
+	justify-content: center; 
+	padding-top: 5vmax; 
+	padding-bottom: 5vmax;
+} 
+.formHeading {
+	max-width: 60%; 
+	font-family: 'Roboto', Monospace;
+	letter-spacing: .2em;
+	background-color: white; 
+	/*outline: 2px solid #bb946e; */
+	/*background-color: rgba(245, 225, 218); */
+	/*background: linear-gradient(to bottom, white, #f2f2f2);*/
+	box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 5px; 
+} 
+.formHeading h2 { 
+	padding: 10px; 
+	text-align: center; 
+	font-size: 2.5rem; 
+	text-transform: uppercase; 
+	font-weight: 900;  
+} 
+.formHeading p { 
+	font-family: "D Sari Bold",Arial,sans-serif;
+	max-width: 50%;
+	margin: auto; 
+	text-align: center; 
+} 
+#innerSection {
+	display: flex;
+	justify-content: center; 
+	padding-top: 3vmax; 
+	padding-bottom: 3vmax; 
+} 
+#innerSection > form {
+	display: grid; 
+	font-family: "D Sari Bold",Arial,sans-serif;
+} 
+.firstRow {
+	display: grid; 
+	grid-template-columns: 1fr 1fr; 
+	padding-bottom: 2vmax; 
+	grid-row-gap: 1.5rem; 
+	grid-column-gap: 8rem; 
+} 
+.columnForm {
+	display: grid; 
+	grid-template-columns: 1fr 1fr; 
+	padding-bottom: 2vmax; 
+	grid-row-gap: 1.5rem; 
+	grid-column-gap: 8rem; 
+} 
+.finalRow {
+	display: grid;
+	grid-row-gap: 1rem; 
+} 
+/*#name {
+		padding: 8px 8px; 
+		margin: 2px 4px; 
+		border: none;
+		border-bottom: 1px solid black;  
+} */ 
+.buttonDiv {
+	display: flex; 
+	flex-direction: row; 
+	justify-content: center; 
+	gap: 25px; 
+	padding-top: 2vmax; 
+} 
+#submit {
+	border: 0;
+	background: #009e60;
+	cursor: pointer; 
+	padding: 10px 20px;
+	color: white; 
+	border-radius: 4px; 
+	font-family: "Times New Roman"; 
+	font-size: 14px; 
+	font-weight: 800;
+	outline: 1px solid #bb946e; 
+	box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.3);	
+}
+#reset {
+	border: 0;
+	background: #ce1126;
+	cursor: pointer; 
+	padding: 10px 20px;
+	color: white; 
+	border-radius: 4px;
+	font-family: "Times New Roman"; 
+	font-size: 14px;
+	font-weight: 800; 	
+	outline: 1px solid #bb946e; 
+	box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.3); 
+}
+#submit:hover {
+	background-color: #7fd5a5;
+	transform: scale(1.1); 
+} 
+#reset:hover {
+	background-color:#e5666b;
+	transform: scale(1.1); 
+} 
+#comment {
+	font-size: 16px;
+} 
+input[type="date"], input[type="time"] {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 6px 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,31 @@
+html {
+	width: 100%;
+} 
+@font-face {
+	font-family: 'Permanent Marker';
+	src: url('PermanentMarker-Regular.ttf') format('truetype');
+} 
+h1 {
+	font-family: 'Permanent Marker',sans-serif;
+} 
+h4 {
+	font-family: 'Permanent Marker',sans-serif;
+	font-size: 20px; 
+	font-weight: 100; 
+} 
+.headContainer	{
+	background-size: contain; 
+	background-image: url(backgroundimg2.jpg);
+	background-position: 50% 20%; 
+	height: 100vh;
+	width: 100%;
+
+} 
+@media only screen and (max-width: 768px) {
+		.headContainer {
+			width: 100%;
+		} 
+		.gridBotoom {
+			width: 100%;
+		} 
+}

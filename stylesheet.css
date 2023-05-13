@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSari.eot');
+    src: local('D Sari'), local('DSari'),
+        url('DSari.eot?#iefix') format('embedded-opentype'),
+        url('DSari.woff2') format('woff2'),
+        url('DSari.woff') format('woff'),
+        url('DSari.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariSemiBold.eot');
+    src: local('D Sari SemiBold'), local('DSariSemiBold'),
+        url('DSariSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('DSariSemiBold.woff2') format('woff2'),
+        url('DSariSemiBold.woff') format('woff'),
+        url('DSariSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariLight-Italic.eot');
+    src: local('D Sari Light Italic'), local('DSariLight-Italic'),
+        url('DSariLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DSariLight-Italic.woff2') format('woff2'),
+        url('DSariLight-Italic.woff') format('woff'),
+        url('DSariLight-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Sari UltraBlack';
+    src: url('DSariUltraBlack-Italic.eot');
+    src: local('D Sari UltraBlack Italic'), local('DSariUltraBlack-Italic'),
+        url('DSariUltraBlack-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DSariUltraBlack-Italic.woff2') format('woff2'),
+        url('DSariUltraBlack-Italic.woff') format('woff'),
+        url('DSariUltraBlack-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Sari Book';
+    src: url('DSariBook-Italic.eot');
+    src: local('D Sari Book Italic'), local('DSariBook-Italic'),
+        url('DSariBook-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DSariBook-Italic.woff2') format('woff2'),
+        url('DSariBook-Italic.woff') format('woff'),
+        url('DSariBook-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariMedium.eot');
+    src: local('D Sari Medium'), local('DSariMedium'),
+        url('DSariMedium.eot?#iefix') format('embedded-opentype'),
+        url('DSariMedium.woff2') format('woff2'),
+        url('DSariMedium.woff') format('woff'),
+        url('DSariMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariBold.eot');
+    src: local('D Sari Bold'), local('DSariBold'),
+        url('DSariBold.eot?#iefix') format('embedded-opentype'),
+        url('DSariBold.woff2') format('woff2'),
+        url('DSariBold.woff') format('woff'),
+        url('DSariBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariSemiBold-Italic.eot');
+    src: local('D Sari SemiBold Italic'), local('DSariSemiBold-Italic'),
+        url('DSariSemiBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DSariSemiBold-Italic.woff2') format('woff2'),
+        url('DSariSemiBold-Italic.woff') format('woff'),
+        url('DSariSemiBold-Italic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Sari Book';
+    src: url('DSariBook.eot');
+    src: local('D Sari Book'), local('DSariBook'),
+        url('DSariBook.eot?#iefix') format('embedded-opentype'),
+        url('DSariBook.woff2') format('woff2'),
+        url('DSariBook.woff') format('woff'),
+        url('DSariBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariExtraLight.eot');
+    src: local('D Sari ExtraLight'), local('DSariExtraLight'),
+        url('DSariExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('DSariExtraLight.woff2') format('woff2'),
+        url('DSariExtraLight.woff') format('woff'),
+        url('DSariExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariHeavy.eot');
+    src: local('D Sari Heavy'), local('DSariHeavy'),
+        url('DSariHeavy.eot?#iefix') format('embedded-opentype'),
+        url('DSariHeavy.woff2') format('woff2'),
+        url('DSariHeavy.woff') format('woff'),
+        url('DSariHeavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariBold-Italic.eot');
+    src: local('D Sari Bold Italic'), local('DSariBold-Italic'),
+        url('DSariBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DSariBold-Italic.woff2') format('woff2'),
+        url('DSariBold-Italic.woff') format('woff'),
+        url('DSariBold-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariExtraLight-Italic.eot');
+    src: local('D Sari ExtraLight Italic'), local('DSariExtraLight-Italic'),
+        url('DSariExtraLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DSariExtraLight-Italic.woff2') format('woff2'),
+        url('DSariExtraLight-Italic.woff') format('woff'),
+        url('DSariExtraLight-Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Sari UltraBlack';
+    src: url('DSariUltraBlack.eot');
+    src: local('D Sari UltraBlack'), local('DSariUltraBlack'),
+        url('DSariUltraBlack.eot?#iefix') format('embedded-opentype'),
+        url('DSariUltraBlack.woff2') format('woff2'),
+        url('DSariUltraBlack.woff') format('woff'),
+        url('DSariUltraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariThin-Italic.eot');
+    src: local('D Sari Thin Italic'), local('DSariThin-Italic'),
+        url('DSariThin-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DSariThin-Italic.woff2') format('woff2'),
+        url('DSariThin-Italic.woff') format('woff'),
+        url('DSariThin-Italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariHeavy-Italic.eot');
+    src: local('D Sari Heavy Italic'), local('DSariHeavy-Italic'),
+        url('DSariHeavy-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DSariHeavy-Italic.woff2') format('woff2'),
+        url('DSariHeavy-Italic.woff') format('woff'),
+        url('DSariHeavy-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariBlack-Italic.eot');
+    src: local('D Sari Black Italic'), local('DSariBlack-Italic'),
+        url('DSariBlack-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DSariBlack-Italic.woff2') format('woff2'),
+        url('DSariBlack-Italic.woff') format('woff'),
+        url('DSariBlack-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSari-Italic.eot');
+    src: local('D Sari Italic'), local('DSari-Italic'),
+        url('DSari-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DSari-Italic.woff2') format('woff2'),
+        url('DSari-Italic.woff') format('woff'),
+        url('DSari-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariThin.eot');
+    src: local('D Sari Thin'), local('DSariThin'),
+        url('DSariThin.eot?#iefix') format('embedded-opentype'),
+        url('DSariThin.woff2') format('woff2'),
+        url('DSariThin.woff') format('woff'),
+        url('DSariThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariLight.eot');
+    src: local('D Sari Light'), local('DSariLight'),
+        url('DSariLight.eot?#iefix') format('embedded-opentype'),
+        url('DSariLight.woff2') format('woff2'),
+        url('DSariLight.woff') format('woff'),
+        url('DSariLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariBlack.eot');
+    src: local('D Sari Black'), local('DSariBlack'),
+        url('DSariBlack.eot?#iefix') format('embedded-opentype'),
+        url('DSariBlack.woff2') format('woff2'),
+        url('DSariBlack.woff') format('woff'),
+        url('DSariBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'D Sari';
+    src: url('DSariMedium-Italic.eot');
+    src: local('D Sari Medium Italic'), local('DSariMedium-Italic'),
+        url('DSariMedium-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DSariMedium-Italic.woff2') format('woff2'),
+        url('DSariMedium-Italic.woff') format('woff'),
+        url('DSariMedium-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+		<meta name="description" content="A restaurant website for El Jefe Tacos">
+		<meta name="keywords" content="Webpage, HTML, CSS">
+		<meta name="author" content="Anthony Ovando">
+		<meta charset="UTF-8">
+		<link href="resetindex.css" rel="stylesheet">
+		<link href="background.css" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
+		<link href="navstyles.css" rel="stylesheet">
+		<link href="innerstyles.css" rel="stylesheet">
+		<link href="menustyles.css" rel="stylesheet">
+		<link href="tablestyles.css" rel="stylesheet">
+		<link href="gridstyles.css" rel="stylesheet">
+		<link href="imagestyles.css" rel="stylesheet">
+		<link href="footerstyles.css" rel="stylesheet">
+		<link href="about_us.css" rel="stylesheet">
+		<link href="reservation.css" rel="stylesheet">
+		<link href="stylesheet.css" rel="stylesheet">
+		<title>Reservation | Restuarant </title>
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:wght@300&display=swap');
+
+		input[type="text" i] {
+		padding: 6px 8px;
+		border: none; 
+		border-bottom: 3px solid #ccc;
+		border-radius: 4px;
+		outline: none; 
+		width: 100%; 
+		font-size: 16px; 
+		}
+		</style>
+</head>
+<body>
+	<nav class="navLinks">
+			<div>
+				<h1>El Jefe Tacos</h1>
+			</div>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="about_us.html">About Us</a></li>
+					<li><a href="reservation.html">Reservation</a></li>
+				</ul>
+	</nav>
+	<section class="formSection">
+		<div class="formHeading">
+		<h2>Reserve your seat</h2>
+			<p>Want to reserve your seat? Fill the information below and we'll get back to you
+			as soon as possible.</p>
+			<div id="innerSection">
+				<form>
+				<div class="firstRow">
+				
+					<label for="fname">First Name:</label>
+					<input name="fname" id="fname" type="text" placeholder="First Name" required>
+					
+					<label for="lname">Last Name:</label>
+					<input name="lname" id="lname" type="text" placeholder="Last Name" required>
+				</div>
+				<div class="columnForm">
+				
+					<label for="email">Email:</label>
+					<input name="email" id="email" type="text" placeholder="Email" required>
+				
+					<label for="phone">Phone Number:</label>
+					<input name="phone" id="phone" type="text" placeholder="Phone Number" required>
+				</div>
+				<div class="columnForm">
+				
+					<label for="date">Date:</label>
+					<input name="date" id="date" type="date" required>
+				
+					<label for="time">Time:</label>
+					<input name="Time" id="time" type="time" required>
+				</div>
+				<div class="finalRow">
+				
+					<label for="comment">Additional Requests:</label>
+					<textarea id="comment" name="comment" rows="8" cols="30"></textarea>
+				</div>
+				<div class="buttonDiv">
+				<button id="submit" name="submit" type="submit" value="Submit">SUBMIT</button>
+				<button name="reset" id="reset" type="reset">RESET</button>
+				</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footerDiv">
+			<div class="rightFooter">
+				<p>445 Albee Square West, Brooklyn, NY 11201<br>(718) 304-9979</p>
+			</div>
+			<div class="leftFooter">
+				<p>Hours<br>Monday - Sunday: 11am - 9pm</p>
+			</div> 
+		</div>
+	</footer>
+</body>
+</html>

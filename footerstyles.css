@@ -1,0 +1,21 @@
+footer {
+	width: 100%;
+	background-color: #333; 
+	height: 100%; 
+} 
+.footerDiv {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	color: white; 
+	font-family: 'Roboto Mono',monospace;
+	line-height: 3rem; 
+} 
+.leftFooter {
+	text-align: center; 
+} 
+.rightFooter {
+	text-align: center; 
+} 
+.footerDiv	{
+	padding: 20px; 
+} 
